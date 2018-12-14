@@ -23,7 +23,7 @@ public class Zimmer {
     
     public Zimmer(int zimmerNummer) {
         this.zimmerNummer=zimmerNummer;
-        this.preisProquadratmeter=5;
+        this.preisProquadratmeter=8;
         rnd=new Random();
         do{            
             groesseZimmer = rnd.nextInt(50);
